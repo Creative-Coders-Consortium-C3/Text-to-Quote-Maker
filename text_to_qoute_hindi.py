@@ -232,7 +232,7 @@ def generate_quote_image(quote, background_path, output_path, font_path, image_e
 
         # Add watermark
         watermark_font = get_hindi_font(font_path, 20)
-        final_image = add_watermark(image_with_effect, "Created by Shubh/QuoteGen", watermark_font)
+        final_image = add_watermark(image_with_effect, "Creative Coders Consortium (C³)", watermark_font)
 
         # Save the image
         final_image.save(output_path)
@@ -545,7 +545,7 @@ def generate_quote_image(quote, background_path, output_path, font_path, image_e
 
         # Add watermark
         watermark_font = get_hindi_font(font_path, 20)
-        final_image = add_watermark(image_with_effect, "Created by Shubh/QuoteGen", watermark_font)
+        final_image = add_watermark(image_with_effect, "Creative Coders Consortium (C³)", watermark_font)
         final_image = add_border(final_image, border_size, border_color)
 
         # Save the image
